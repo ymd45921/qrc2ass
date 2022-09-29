@@ -1,9 +1,9 @@
-import * as lib from '../src/lib';
+import * as lib from './lib';
 import * as utils from './utils';
 import * as fs from "fs";
-import { addAegisubInfo } from "../src/utils/ass";
-import karaoke from "../src/plugins/karaoke";
-import qrc from "../src/plugins/qrc";
+import { addAegisubInfo } from "./utils/ass";
+import karaoke from "./plugins/karaoke";
+import qrc from "./plugins/qrc";
 
 export const convert = (
     inputPath: string,

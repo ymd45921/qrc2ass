@@ -1,10 +1,10 @@
 # qrc2ass
 
-A demo covert k-timed qrc to input of Aegisub Karaoke-templater.
+A demo convert k-timed qrc to input of Aegisub Karaoke-templater.
 
 ## Usage
 
-You can run demo to execute this covert:
+You can run demo to execute this convert:
 
 1. Install [Node](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/)([Chinese](http://yarnpkg.top/Installation.html)). 
 2. Run `yarn` in the project root directory.

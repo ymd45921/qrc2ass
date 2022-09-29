@@ -1,7 +1,7 @@
 import { convert } from './src/demo';
 
 convert(
-    `C:\\Users\\ymd45\\Desktop\\幽闭星光 - 紅に染まる恋の花 (with Marcia) - 250 - 紅に染まる恋の花_qm.qrc`, // QRC file: file to covert.
+    `C:\\Users\\ymd45\\Desktop\\幽闭星光 - 紅に染まる恋の花 (with Marcia) - 250 - 紅に染まる恋の花_qm.qrc`, // QRC file: file to convert.
     String.raw`C:\Users\ymd45\Desktop\input.mp4`,   // Movie file - for Aegisub use, if you don't need it, you can set it to ''.
     String.raw`C:\Users\ymd45\Desktop\input.ass`,   // Output file - the directory where the file resides must have been created.
     true,               // Print QRC in console - check lyric content and determine the lines to delete.

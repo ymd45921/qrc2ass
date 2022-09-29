@@ -2,8 +2,10 @@ import * as utils from "../../utils";
 import {execSync} from "child_process";
 import * as zlib from "zlib";
 import * as fs from "fs";
+import * as path from "path";
 import Lrc from "lrc-utils";
 import { xml2js } from "xml-js";
+
 
 const timeToString = (time: number) => Lrc.TimeStamp.toString(time / 1000);
 
@@ -25,17 +27,13 @@ export const qrcToLrc = (text: string) => {
     return ret.join('\r\n');
 }
 
-const path = {
-    executable: `src/plugins/qrc/qrc.exe`,
-    runnable: `src/plugins/qrc/qrc.js`
-}
-
 type CallMethod = 'js-wasm' | 'win32'
 
 const callCommand = (method: CallMethod) => {
+
     switch (method) {
-        case "js-wasm": return `"${process.execPath}" ${path.runnable}`
-        case "win32": return `"${utils.absolutePath(path.executable)}"`
+        case "js-wasm": return `"${process.execPath}" ${path.join(__dirname, "qrc.js")}`
+        case "win32": return path.join(__dirname, "qrc.exe")
         default: return ''
     }
 }
