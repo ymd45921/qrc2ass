@@ -13,7 +13,7 @@ You can run demo to execute this covert:
 
 You can also use the function `convert` in your own code.
 
-1. Run `yarn i qrc2ass` in your project root directory.
+1. Run `yarn add qrc2ass` in your project root directory.
 2. Import through `import { convert } from 'qrc2ass';`.
 
 When you have finished converting, you can use Aegisub's `karaoke-templater` plugin to convert it to karaoke subtitle.

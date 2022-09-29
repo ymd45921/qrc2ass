@@ -1,11 +1,13 @@
 {
   "name": "qrc2ass",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A demo convert k-timed qrc to input of Aegisub Karaoke-templater.",
-  "main": "index.ts",
+  "main": "build/index.js",
   "author": "Nanami",
   "license": "MIT",
-  "files": ["build"],
+  "files": [
+    "build"
+  ],
   "scripts": {
     "start": "node --require ts-node/register index.ts",
     "prebuild": "node scripts/prebuild.js",
