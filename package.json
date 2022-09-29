@@ -1,6 +1,6 @@
 {
   "name": "qrc2ass",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A demo convert k-timed qrc to input of Aegisub Karaoke-templater.",
   "main": "build/index.js",
   "author": "Nanami",
