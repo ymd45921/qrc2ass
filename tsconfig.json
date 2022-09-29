@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es2015",
+      "sourceMap": false,
+      "outDir": "build",
+      "checkJs": false
+    },
+    "exclude": [
+      "node_modules",
+      "scripts",
+      "index.ts"
+    ]
+  }
+  

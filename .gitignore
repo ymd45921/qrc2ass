@@ -1,0 +1,6 @@
+node_modules
+build
+out
+temp
+yarn-error.log
+.exe
